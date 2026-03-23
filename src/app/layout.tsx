@@ -29,9 +29,6 @@ export default function RootLayout({
       dir="rtl"
       className={`${inter.variable} ${tajawal.variable} antialiased`}
     >
-      <body className="min-h-screen bg-slate-50 font-tajawal text-slate-900">
-        {children}
-      </body>
-    </html>
-  );
-}
+      <body className="max-w-md mx-auto bg-gray-50 min-h-screen shadow-xl">
+  {children}
+</body>
